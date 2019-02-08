@@ -3,7 +3,7 @@
 # из которой запущен данный скрипт.
 # И второй скрипт, удаляющий эти папки.
 import os
-import sys
+
 
 def dir_create():
     for i in [os.path.join(os.getcwd(), 'dir_' + str(i + 1)) for i in range(9)]:
